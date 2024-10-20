@@ -1,0 +1,389 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  width: 1440px;
+  display: block;
+  margin: auto;
+  font-family: "Fantasque sans mono";
+  position: relative;
+  background-color: #ecc7cf;
+}
+/* body::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url("../images/figma\ maket.svg");
+  width: 1440px;
+  height: 11291px;
+  opacity: 0.3;
+} */
+.firstscreen {
+  display: flex;
+  position: relative;
+}
+.firstscreen h1 {
+  margin-top: 94px;
+  margin-left: 70px;
+  line-height: 190px;
+}
+.firstscreen img {
+  position: absolute;
+  top: 70px;
+  left: 595px;
+  width: 845px;
+}
+.secondscreen {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  margin-top: 180px;
+}
+.text-about-font {
+  width: 670px;
+}
+.orange {
+  background-image: url("../images/buble1.svg");
+  width: 670px;
+  height: 117px;
+  margin-top: 26px;
+  margin-left: 1px;
+  padding-top: 46px;
+}
+.orange p {
+  text-align: center;
+}
+.white {
+  width: 642px;
+  height: 143px;
+  background-color: #eb662b;
+  border-radius: 30px;
+  margin-top: 60px;
+  padding-top: 49px;
+  margin-left: 1px;
+}
+.white p {
+  text-align: center;
+}
+.white2 {
+  width: 642px;
+  height: 143px;
+  background-color: #eb662b;
+  border-radius: 30px;
+  margin-top: 36px;
+  padding-top: 53px;
+  margin-left: 1px;
+}
+.white2 p {
+  text-align: center;
+}
+.girl1 {
+  width: 459px;
+  height: 612px;
+  margin-left: 7px;
+  margin-top: -3px;
+}
+.boy1 {
+  width: 459px;
+  height: 612px;
+  margin-top: 3px;
+  margin-left: 6px;
+}
+.bigword {
+  background-image: url("../images/lines.svg");
+  width: 1230px;
+  height: 399px;
+  margin-top: 110px;
+  margin-left: 111px;
+}
+.bigword p {
+  font-size: 206px;
+  text-align: center;
+  margin-left: 15px;
+  margin-top: 85px;
+  color: #efecdb;
+}
+.thirdscreen {
+  position: relative;
+  display: flex;
+}
+.everywhere {
+  font-size: 24px;
+  color: rgb(235, 103, 38);
+}
+.v {
+  margin-top: 436px;
+  margin-left: -1243px;
+}
+.e {
+  margin-top: -360px;
+  margin-left: -783px;
+}
+.z {
+  margin-left: -665px;
+  margin-top: 322px;
+}
+.a {
+  margin-top: 76px;
+  margin-left: 41px;
+}
+.e2 {
+  margin-top: 19px;
+  margin-left: -454px;
+}
+.a {
+  margin-top: -75px;
+  margin-left: -104px;
+}
+.fourthscreen {
+  display: flex;
+  position: relative;
+  font-size: 24px;
+}
+.blocksleft {
+  background-image: url(../images/blocks-left.svg);
+  width: 93px;
+  height: 79px;
+  margin-top: 545px;
+  margin-left: 84px;
+  padding-left: 29px;
+  padding-top: 9px;
+}
+.C {
+  margin-left: 20px;
+  margin-top: -4px;
+}
+.blocksleft p {
+  color: #efecdb;
+  font-size: 38px;
+}
+.blocks2 {
+  background-image: url(../images/blocks2.svg);
+  width: 68px;
+  height: 111px;
+  margin-top: 512px;
+  margin-left: 312px;
+}
+.block3 {
+  background-image: url(../images/block3.svg);
+  width: 51px;
+  height: 45px;
+  margin-top: 568px;
+  margin-left: 48px;
+  padding-top: 10px;
+  padding-left: 9px;
+}
+.block3 p {
+  color: #efecdb;
+  font-size: 38px;
+}
+.blocks4 {
+  background-image: url(../images/blocks4.svg);
+  width: 93px;
+  height: 79px;
+  margin-top: 523px;
+  margin-left: 56px;
+  padding-left: 30px;
+  padding-top: 8px;
+}
+.blocks4 p {
+  color: #efecdb;
+  font-size: 38px;
+}
+.blocks5 {
+  background-image: url(../images/blocks5.svg);
+  width: 93px;
+  height: 79px;
+  margin-top: 529px;
+  margin-left: 350px;
+  padding-top: 44px;
+  padding-left: 9px;
+}
+.P4 {
+  margin-left: 2px;
+}
+.blocks5 p {
+  color: #efecdb;
+  font-size: 38px;
+  display: inline;
+}
+.block6 {
+  background-image: url(../images/block6.svg);
+  width: 51px;
+  height: 45px;
+  margin-top: 574px;
+  margin-left: 57px;
+}
+.C2 {
+  margin-left: 21px;
+  margin-top: -3px;
+}
+.gumanistic {
+  background-image: url(../images/buble3.svg);
+  width: 712px;
+  height: 115px;
+  margin-top: 151px;
+  margin-left: -992px;
+  padding-top: 38px;
+}
+.gumanistic p {
+  text-align: center;
+  color: rgb(235, 103, 38);
+}
+.girlsit {
+  position: absolute;
+  margin-top: 224px;
+  margin-left: 141px;
+}
+.boysit {
+  position: absolute;
+  margin-top: 208px;
+  margin-left: 789px;
+}
+.fifthscreen {
+  display: block;
+  position: relative;
+  color: rgb(235, 103, 38);
+  font-size: 24px;
+}
+.apertura {
+  background-image: url(../images/buble-aprt.svg);
+  width: 355px;
+  height: 90px;
+  margin-top: 146px;
+  margin-left: 927px;
+  padding-top: 36px;
+  padding-left: 62px;
+}
+.apertura p {
+  color: rgb(235, 103, 38);
+  font-size: 24px;
+}
+.Ctime2 {
+  margin-top: 65px;
+  margin-left: 136px;
+}
+.Etime2 {
+  margin-top: -295px;
+  margin-left: 603px;
+}
+.Ztime2 {
+  margin-top: -290px;
+  margin-left: 1034px;
+}
+.sixthscreen {
+  display: block;
+  position: relative;
+  color: rgb(235, 103, 38);
+  font-size: 24px;
+}
+.element {
+  background-image: url(../images/element-buble.svg);
+  width: 332px;
+  height: 99px;
+  margin-top: 137px;
+  margin-left: 130px;
+  padding-top: 36px;
+  padding-left: 52px;
+}
+.Xframe6 {
+  margin-top: 67px;
+  margin-left: 114px;
+}
+.Yframe6 {
+  margin-top: -365px;
+  margin-left: 533px;
+}
+.Zframe6 {
+  margin-top: -373px;
+  margin-left: 1043px;
+}
+.seventhscreen {
+  display: block;
+  position: relative;
+  color: rgb(235, 103, 38);
+  font-size: 24px;
+}
+.monolit {
+  background-image: url(../images/monolit.svg);
+  width: 702px;
+  height: 96px;
+  margin-top: 145px;
+  margin-left: 337px;
+  padding-top: 45px;
+  padding-left: 169px;
+}
+.line1,
+.line2,
+.line3,
+.line4 {
+  position: relative;
+  width: 1439px;
+  height: 3px;
+  background: #eb662b;
+}
+.line1 {
+  top: 90px;
+}
+.line2 {
+  top: 143px;
+}
+.line3 {
+  top: 270px;
+}
+.line4 {
+  top: 317px;
+}
+.theword {
+  position: relative;
+  top: 80px;
+  left: 104px;
+}
+.details {
+  position: relative;
+  top: -249px;
+  left: 204px;
+}
+.eighthscreen {
+  display: block;
+  position: relative;
+  color: rgb(235, 103, 38);
+  font-size: 24px;
+}
+.replic-1-8 {
+  background-image: url(../images/replic-1-8.svg);
+  width: 289px;
+  height: 68px;
+  margin-top: -114px;
+  margin-left: 283px;
+  padding-top: 19px;
+  padding-left: 38px;
+}
+.girl-on {
+  margin-left: 581px;
+  margin-top: -50px;
+}
+.replic-2-8 {
+  background-image: url(../images/replic-2-8.svg);
+  width: 233px;
+  height: 65px;
+  margin-top: -221px;
+  margin-left: 818px;
+  padding-top: 17px;
+  padding-left: 73px;
+}
+.symbols {
+  font-size: 32px;
+  font-family: "Fantasquesansmono-regular";
+  width: 1260px;
+  height: 647px;
+  background-color: #eb662b;
+  margin-top: 91px;
+  margin-left: 91px;
+  padding-top: 48px;
+  padding-left: 30px;
+}
+.symbols p {
+  color: #efecdb;
+}

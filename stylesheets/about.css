@@ -1,0 +1,27 @@
+
+p {font-family: 'Fantasquesansmono-regular'}
+h1 {font-family: 'Fantasquesansmono-regular'}
+div {font-family: 'Fantasquesansmono-regular'}
+.firstscreen {
+  color: rgb(235, 103, 38);
+  font-size: 269px;
+}
+.orange {
+   color: rgb(235, 103, 38);
+   font-size: 24px;
+ }
+ .white {
+  color: rgb(239, 236, 219);
+  font-size: 24px;
+ }
+.white2 {
+  color: rgb(239, 236, 219);
+  font-size: 24px;
+}
+.image-text-container {
+  position: relative;
+  display: inline-block;
+}
+
+
+   
