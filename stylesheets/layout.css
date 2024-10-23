@@ -9,7 +9,7 @@ body {
   position: relative;
   background-color: #ecc7cf;
 }
-/* body::after {
+body::after {
   content: "";
   position: absolute;
   top: 0;
@@ -18,7 +18,8 @@ body {
   width: 1440px;
   height: 11291px;
   opacity: 0.3;
-} */
+}
+/* ПЕРВЫЙ ЭКРАН */
 .firstscreen {
   display: flex;
   position: relative;
@@ -28,12 +29,14 @@ body {
   margin-left: 70px;
   line-height: 190px;
 }
+
 .firstscreen img {
   position: absolute;
   top: 70px;
   left: 595px;
   width: 845px;
 }
+/* ВТОРОЙ ЭКРАН */
 .secondscreen {
   display: flex;
   position: relative;
@@ -88,7 +91,7 @@ body {
   width: 459px;
   height: 612px;
   margin-top: 3px;
-  margin-left: 6px;
+  margin-left: 1px;
 }
 .bigword {
   background-image: url("../images/lines.svg");
@@ -381,9 +384,263 @@ body {
   background-color: #eb662b;
   margin-top: 91px;
   margin-left: 91px;
-  padding-top: 48px;
+  padding-top: 50px;
   padding-left: 30px;
 }
 .symbols p {
   color: #efecdb;
+}
+.stroka2 {
+  margin-top: 1px;
+}
+.stroka3 {
+  margin-top: 3px;
+}
+.stroka4 {
+  margin-top: 2px;
+}
+.stroka5 {
+  margin-top: 1px;
+}
+.stroka6 {
+  margin-top: 3px;
+}
+.stroka7 {
+  margin-top: 2px;
+}
+.stroka8 {
+  margin-top: 2px;
+}
+.stroka9 {
+  margin-top: 3px;
+}
+.stroka10 {
+  margin-top: 1px;
+}
+.stroka11 {
+  margin-top: 1px;
+}
+.stroka12 {
+  margin-top: 3px;
+}
+.stroka13 {
+  margin-top: 1px;
+}
+.stroka14 {
+  margin-top: 3px;
+}
+.stroka15 {
+  margin-top: 1px;
+}
+.stroka16 {
+  margin-top: 3px;
+}
+.stroka17 {
+  margin-top: 1px;
+}
+/* ДЕВЯТЫЙ ЭКРАН */
+.ninthscreen {
+  display: block;
+  position: relative;
+  color: #efecdb;
+  font-size: 24px;
+}
+.A-symbols {
+  width: 730px;
+  height: 467px;
+  background-color: #eb662b;
+}
+.table {
+  position: relative;
+  width: 755px;
+  height: 467px;
+  margin-top: 94px;
+  margin-left: 93px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.block1,
+.block2,
+.block-9-3,
+.block4,
+.block5,
+.block-9-6,
+.block7,
+.block8,
+.block1two,
+.block2two,
+.block3two,
+.block4two,
+.block5two,
+.block6two,
+.block7two,
+.block8two,
+.block1three,
+.block2three,
+.block3three,
+.block4three,
+.block5three,
+.block6three,
+.block7three,
+.block8three,
+.block1four,
+.block2four,
+.block3four,
+.block4four,
+.block5four,
+.block6four,
+.block7four,
+.block8four,
+.block1five,
+.block2five,
+.block3five,
+.block4five,
+.block5five,
+.block6five,
+.block7five,
+.block8five {
+  width: 97px;
+  height: 94px;
+  margin-left: -3px;
+  top: 0px;
+  background: #eb662b;
+  border: 4.7px solid #efecdb;
+}
+.block1two,
+.block2two,
+.block3two,
+.block4two,
+.block5two,
+.block6two,
+.block7two,
+.block8two {
+  margin-top: -10px;
+}
+.block1three,
+.block2three,
+.block3three,
+.block4three,
+.block5three,
+.block6three,
+.block7three,
+.block8three {
+  margin-top: -90px;
+}
+.block1four,
+.block2four,
+.block3four,
+.block4four,
+.block5four,
+.block6four,
+.block7four,
+.block8four {
+  margin-top: -20px;
+}
+.block1five,
+.block2five,
+.block3five,
+.block4five,
+.block5five,
+.block6five,
+.block7five,
+.block8five {
+  margin-top: -5px;
+}
+.block1 {
+  width: 90px;
+}
+.letter1,
+.letter2,
+.letter3,
+.letter4,
+.letter5,
+.letter6,
+.letter7 {
+  position: relative;
+  font-size: 80px;
+  color: #efecdb;
+}
+.letter1 {
+  top: 0px;
+  left: 18px;
+}
+.letter2 {
+  margin-top: -2px;
+  margin-left: 17px;
+}
+.letter3 {
+  margin-top: 2px;
+  margin-left: 23px;
+}
+.morfema {
+  background-image: url(../images/morfema.svg);
+  width: 314px;
+  height: 148px;
+  color: #eb662b;
+  margin-left: 856px;
+  margin-top: -447px;
+  padding-top: 26px;
+  padding-left: 33px;
+}
+.theboy {
+  margin-left: 231px;
+  margin-top: -113px;
+}
+/* ДЕСЯТЫЙ ЭКРАН */
+.girl-arm {
+  margin-top: 460px;
+  margin-left: 74px;
+}
+.menaytsa {
+  background-image: url(../images/menaytsa.svg);
+  width: 406px;
+  height: 138px;
+  font-size: 24px;
+  color: #eb662b;
+  margin-top: -508px;
+  margin-left: 287px;
+  padding-left: 64px;
+  padding-top: 43px;
+}
+.ten-letters {
+  display: flex;
+  color: #eb662b;
+  gap: 20px;
+}
+.t-l-d {
+  font-size: 260px;
+  margin-top: -216px;
+  margin-left: 752px;
+}
+.t-l-g {
+  font-size: 305px;
+  margin-top: -235px;
+  margin-left: 56px;
+}
+.t-l-t {
+  font-size: 296px;
+  margin-top: -229px;
+  margin-left: 67px;
+}
+.t-l-d-i {
+  font-size: 250px;
+  margin-top: -30px;
+  margin-left: 750px;
+}
+.t-l-g-i {
+  font-size: 300px;
+  margin-top: -75px;
+  margin-left: 60px;
+}
+.t-l-t-i {
+  font-size: 287px;
+  margin-top: -75px;
+  margin-left: 70px;
+}
+.ten-letters-two {
+  display: flex;
+  font-size: 296px;
+  color: #eb662b;
+  font-style: italic;
+  gap: 20px;
 }

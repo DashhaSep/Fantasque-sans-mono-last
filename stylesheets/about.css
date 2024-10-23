@@ -1,19 +1,24 @@
-
-p {font-family: 'Fantasquesansmono-regular'}
-h1 {font-family: 'Fantasquesansmono-regular'}
-div {font-family: 'Fantasquesansmono-regular'}
+p {
+  font-family: "Fantasque sans mono";
+}
+h1 {
+  font-family: "Fantasque sans mono";
+}
+div {
+  font-family: "Fantasque sans mono";
+}
 .firstscreen {
   color: rgb(235, 103, 38);
   font-size: 269px;
 }
 .orange {
-   color: rgb(235, 103, 38);
-   font-size: 24px;
- }
- .white {
+  color: rgb(235, 103, 38);
+  font-size: 24px;
+}
+.white {
   color: rgb(239, 236, 219);
   font-size: 24px;
- }
+}
 .white2 {
   color: rgb(239, 236, 219);
   font-size: 24px;
@@ -22,6 +27,3 @@ div {font-family: 'Fantasquesansmono-regular'}
   position: relative;
   display: inline-block;
 }
-
-
-   
