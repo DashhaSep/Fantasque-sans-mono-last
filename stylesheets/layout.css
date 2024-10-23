@@ -23,13 +23,17 @@ body::after {
 .firstscreen {
   display: flex;
   position: relative;
+  flex-wrap: wrap;
 }
 .firstscreen h1 {
   margin-top: 94px;
   margin-left: 70px;
   line-height: 190px;
 }
-
+.mono {
+  margin-top: -95px;
+  margin-left: 20px;
+}
 .firstscreen img {
   position: absolute;
   top: 70px;
@@ -275,6 +279,7 @@ body::after {
   margin-top: -290px;
   margin-left: 1034px;
 }
+/* ШЕСТОЙ ЭКРАН */
 .sixthscreen {
   display: block;
   position: relative;
@@ -302,6 +307,7 @@ body::after {
   margin-top: -373px;
   margin-left: 1043px;
 }
+/* СЕДЬМОЙ ЭКРАН */
 .seventhscreen {
   display: block;
   position: relative;
@@ -348,6 +354,7 @@ body::after {
   top: -249px;
   left: 204px;
 }
+/* ВОСЬМОЙ ЭКРАН */
 .eighthscreen {
   display: block;
   position: relative;
@@ -366,12 +373,14 @@ body::after {
 .girl-on {
   margin-left: 581px;
   margin-top: -50px;
+  position: absolute;
+  z-index: 1;
 }
 .replic-2-8 {
   background-image: url(../images/replic-2-8.svg);
   width: 233px;
   height: 65px;
-  margin-top: -221px;
+  margin-top: -32px;
   margin-left: 818px;
   padding-top: 17px;
   padding-left: 73px;
@@ -386,6 +395,8 @@ body::after {
   margin-left: 91px;
   padding-top: 50px;
   padding-left: 30px;
+  position: absolute;
+  z-index: 2;
 }
 .symbols p {
   color: #efecdb;
@@ -438,12 +449,19 @@ body::after {
 .stroka17 {
   margin-top: 1px;
 }
+.arms-symbols {
+  position: absolute;
+  z-index: 3;
+  margin-top: 65px;
+  margin-left: 605px;
+}
 /* ДЕВЯТЫЙ ЭКРАН */
 .ninthscreen {
   display: block;
   position: relative;
   color: #efecdb;
   font-size: 24px;
+  margin-top: 832px;
 }
 .A-symbols {
   width: 730px;
@@ -499,55 +517,25 @@ body::after {
 .block6five,
 .block7five,
 .block8five {
-  width: 97px;
-  height: 94px;
+  width: 94px;
+  height: 93.5px;
   margin-left: -3px;
   top: 0px;
   background: #eb662b;
-  border: 4.7px solid #efecdb;
 }
-.block1two,
-.block2two,
-.block3two,
-.block4two,
-.block5two,
-.block6two,
-.block7two,
-.block8two {
-  margin-top: -10px;
-}
-.block1three,
-.block2three,
-.block3three,
-.block4three,
-.block5three,
-.block6three,
-.block7three,
-.block8three {
-  margin-top: -90px;
-}
-.block1four,
-.block2four,
-.block3four,
-.block4four,
-.block5four,
-.block6four,
-.block7four,
-.block8four {
-  margin-top: -20px;
-}
-.block1five,
-.block2five,
-.block3five,
-.block4five,
-.block5five,
-.block6five,
-.block7five,
-.block8five {
-  margin-top: -5px;
-}
-.block1 {
-  width: 90px;
+.block1,
+.block2,
+.block-9-3,
+.block4,
+.block5,
+.block-9-6,
+.block7,
+.block8 {
+  border-color: #efecdb;
+  border-top: none;
+  border-left: 3px;
+  border-right: 3px;
+  border-bottom: 3px;
 }
 .letter1,
 .letter2,
@@ -643,4 +631,41 @@ body::after {
   color: #eb662b;
   font-style: italic;
   gap: 20px;
+}
+.eleven {
+  margin-top: 350px;
+  margin-left: 90px;
+  font-size: 80.5px;
+  color: #eb662b;
+}
+
+.eleven-italic {
+  font-style: italic;
+}
+.eleven-bold {
+  font-family: "Fantasque sans mono";
+  font-weight: bold;
+}
+.eleven-bold-italic {
+  font-style: bolditalic;
+  font-weight: bold;
+}
+.nachertanya {
+  background-image: url(../images/nachertanya.svg);
+  width: 438px;
+  height: 90px;
+  color: #eb662b;
+  font-size: 24px;
+  margin-left: 690px;
+  margin-top: -456px;
+  padding-top: 32px;
+  padding-left: 42px;
+}
+.girl-flowers {
+  margin-left: 1077px;
+  margin-top: -150px;
+}
+.flower-1N {
+  margin-top: 10px;
+  margin-left: 20px;
 }
