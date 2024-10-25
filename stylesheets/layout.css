@@ -9,7 +9,7 @@ body {
   position: relative;
   background-color: #ecc7cf;
 }
-body::after {
+/* body::after {
   content: "";
   position: absolute;
   top: 0;
@@ -18,7 +18,17 @@ body::after {
   width: 1440px;
   height: 11291px;
   opacity: 0.3;
-}
+} */
+/* body::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url("../images/THE\ DESIGN.svg");
+  width: 1440px;
+  height: 11376px;
+  opacity: 0.3;
+} */
 /* ПЕРВЫЙ ЭКРАН */
 .firstscreen {
   display: flex;
@@ -520,7 +530,6 @@ body::after {
   width: 94px;
   height: 93.5px;
   margin-left: -3px;
-
   background: #eb662b;
 }
 .block1two,
@@ -532,7 +541,113 @@ body::after {
 .block7two,
 .block8two {
   border-color: #efecdb;
-  border-top: 3px;
+  border-bottom: 8px solid;
+}
+.block1,
+.block2,
+.block-9-3,
+.block4,
+.block5,
+.block-9-6,
+.block7,
+.block8 {
+  border-bottom: #efecdb 8px solid;
+}
+.block1three,
+.block2three,
+.block3three,
+.block4three,
+.block5three,
+.block6three,
+.block7three,
+.block8three {
+  border-color: #efecdb;
+
+  border-bottom: 8px solid;
+}
+.block1,
+.block1two,
+.block1three,
+.block1four,
+.block1five {
+  border-right: #efecdb 5px solid;
+}
+.block1four,
+.block2four,
+.block3four,
+.block4four,
+.block5four,
+.block6four,
+.block7four,
+.block8four {
+  border-color: #efecdb;
+
+  border-bottom: 8px solid;
+}
+.block1five,
+.block2five,
+.block3five,
+.block4five,
+.block5five,
+.block6five,
+.block7five,
+.block8five {
+  border-color: #efecdb;
+}
+.block2,
+.block2two,
+.block2three,
+.block2four,
+.block2five {
+  border-right: #efecdb 5px solid;
+  border-left: #efecdb 5px solid;
+}
+.block-9-3,
+.block3two,
+.block3three,
+.block3four,
+.block3five {
+  border-right: #efecdb 5px solid;
+  border-left: #efecdb 5px solid;
+}
+.block4,
+.block4two,
+.block4three,
+.block4four,
+.block4five {
+  border-right: #efecdb 5px solid;
+  border-left: #efecdb 5px solid;
+}
+.block5,
+.block5two,
+.block5three,
+.block5four,
+.block5five {
+  border-right: #efecdb 5px solid;
+  border-left: #efecdb 5px solid;
+}
+.block-9-6,
+.block6two,
+.block6three,
+.block6four,
+.block6five {
+  border-right: #efecdb 5px solid;
+  border-left: #efecdb 5px solid;
+}
+.block7,
+.block7two,
+.block7three,
+.block7four,
+.block7five {
+  border-right: #efecdb 5px solid;
+  border-left: #efecdb 5px solid;
+}
+.block8,
+.block8two,
+.block8three,
+.block8four,
+.block8five {
+  border-left: #efecdb 5px solid;
 }
 .letter1,
 .letter2,
@@ -540,23 +655,74 @@ body::after {
 .letter4,
 .letter5,
 .letter6,
-.letter7 {
+.letter7,
+.letter8,
+.letter9,
+.letter10,
+.letter11,
+.letter12,
+.letter13,
+.letter14 {
   position: relative;
   font-size: 80px;
   color: #efecdb;
 }
 .letter1 {
-  top: 0px;
-  left: 18px;
+  top: 7px;
+  left: 20px;
 }
 .letter2 {
-  margin-top: -2px;
-  margin-left: 17px;
+  margin-top: 5px;
+  margin-left: 20px;
 }
 .letter3 {
-  margin-top: 2px;
-  margin-left: 23px;
+  margin-top: 7px;
+  margin-left: 21px;
 }
+.letter4 {
+  top: 5px;
+  left: 25px;
+}
+.letter5 {
+  margin-top: 5px;
+  margin-left: 20px;
+}
+.letter6 {
+  margin-top: 4px;
+  margin-left: 19px;
+}
+.letter7 {
+  top: 6px;
+  left: 20px;
+}
+.letter8 {
+  margin-top: 6px;
+  margin-left: 20px;
+}
+.letter9 {
+  margin-top: 4px;
+  margin-left: 20px;
+}
+.letter10 {
+  top: -2px;
+  left: 20px;
+}
+.letter11 {
+  margin-left: 20px;
+}
+.letter12 {
+  margin-top: 4px;
+  margin-left: 20px;
+}
+.letter13 {
+  margin-left: 25px;
+  margin-top: 2px;
+}
+.letter14 {
+  margin-top: 6px;
+  margin-left: 18px;
+}
+
 .morfema {
   background-image: url(../images/morfema.svg);
   width: 314px;
@@ -635,16 +801,15 @@ body::after {
   font-size: 80.5px;
   color: #eb662b;
 }
-
 .eleven-italic {
   font-style: italic;
 }
 .eleven-bold {
-  font-family: "Fantasque sans mono";
+  font-family: "Fantasquesansmono-bold";
   font-weight: bold;
+  margin-top: 5px;
 }
 .eleven-bold-italic {
-  font-style: bolditalic;
   font-weight: bold;
 }
 .nachertanya {
@@ -683,7 +848,7 @@ body::after {
   font-style: italic;
 }
 .eleven-bold-italic {
-  margin-top: 8px;
+  margin-top: 4px;
   margin-left: 3px;
 }
 .flower-3N {
@@ -996,6 +1161,70 @@ body::after {
   margin-top: 78px;
   margin-left: 66px;
 }
+.box-beige-0 {
+  width: 143px;
+  height: 230px;
+  background-color: #efecdb;
+  border-radius: 40px;
+  margin-top: -216px;
+  margin-left: 55px;
+}
+.box-beige-1 {
+  width: 143px;
+  height: 230px;
+  background-color: #efecdb;
+  border-radius: 40px;
+  margin-top: -231px;
+  margin-left: 225px;
+}
+.box-beige-2 {
+  width: 143px;
+  height: 230px;
+  background-color: #efecdb;
+  border-radius: 40px;
+  margin-top: -230px;
+  margin-left: 391px;
+}
+.box-beige-3 {
+  width: 143px;
+  height: 230px;
+  background-color: #efecdb;
+  border-radius: 40px;
+  margin-top: -231px;
+  margin-left: 560px;
+}
+.box-beige-4 {
+  width: 143px;
+  height: 230px;
+  background-color: #efecdb;
+  border-radius: 40px;
+  margin-top: -230px;
+  margin-left: 728px;
+}
+.box-beige-5 {
+  width: 143px;
+  height: 230px;
+  background-color: #efecdb;
+  border-radius: 40px;
+  margin-top: -228px;
+  margin-left: 895px;
+}
+.box-beige-6 {
+  width: 143px;
+  height: 230px;
+  background-color: #efecdb;
+  border-radius: 40px;
+  margin-top: -232px;
+  margin-left: 1064px;
+}
+.box-beige-7 {
+  width: 143px;
+  height: 230px;
+  background-color: #efecdb;
+  border-radius: 40px;
+  margin-top: -230px;
+  margin-left: 1231px;
+}
 .number-1-end {
   margin-left: 35px;
 }
@@ -1020,4 +1249,111 @@ body::after {
 .number-7-end {
   margin-left: 36px;
   margin-top: 3px;
+}
+.numbers-words {
+  display: flex;
+  color: #eb662b;
+  font-size: 19px;
+  margin-top: -25px;
+  margin-left: 108px;
+}
+.number-1-word {
+  margin-left: 129px;
+}
+.number-2-word {
+  margin-left: 135px;
+}
+.number-3-word {
+  margin-left: 140px;
+  margin-top: 1px;
+}
+.number-4-word {
+  margin-left: 123px;
+  margin-top: -4px;
+}
+.number-5-word {
+  margin-left: 115px;
+}
+.number-6-word {
+  margin-left: 125px;
+  margin-top: -4px;
+}
+.number-7-word {
+  margin-left: 123px;
+  margin-top: -3px;
+}
+.markers {
+  display: flex;
+  margin-top: -27px;
+}
+.marker1 {
+  margin-left: -20px;
+}
+.marker2 {
+  margin-left: -228px;
+}
+.marker3 {
+  margin-left: -228px;
+  margin-top: -2px;
+}
+.marker4 {
+  margin-left: -226px;
+}
+.marker5 {
+  margin-left: -221px;
+  margin-top: -3px;
+}
+.marker6 {
+  margin-left: -223px;
+  margin-top: -4px;
+}
+.marker7 {
+  margin-left: -222px;
+}
+.marker8 {
+  margin-left: -220px;
+  margin-top: -4px;
+}
+.marker9 {
+  margin-left: -219px;
+  margin-top: -3px;
+}
+.marker10 {
+  margin-left: -224px;
+  margin-top: -3px;
+}
+.marker11 {
+  margin-left: -220px;
+  margin-top: -2px;
+}
+.marker12 {
+  margin-left: -221px;
+  margin-top: -4px;
+}
+.marker13 {
+  margin-left: -222px;
+  margin-top: -3px;
+}
+/* ПОДВАЛ */
+.podval {
+  background-color: #eb662b;
+  width: 1440px;
+  height: 174px;
+  margin-top: -2px;
+}
+.podval-words {
+  color: #efecdb;
+  font-size: 24px;
+}
+.Daria {
+  margin-top: -100px;
+  margin-left: 29px;
+}
+.uvki {
+  margin-top: -21px;
+  margin-left: 643px;
+}
+.Kamila {
+  margin-top: -40px;
+  margin-left: 1125px;
 }
