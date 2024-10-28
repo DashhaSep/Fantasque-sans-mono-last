@@ -19,6 +19,16 @@ body {
   height: 11376px;
   opacity: 0.3;
 } */
+body::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url("../images/fantasque\ sans\ mono.svg");
+  width: 1440px;
+  height: 11376px;
+  opacity: 0.3;
+}
 /* ПЕРВЫЙ ЭКРАН */
 .firstscreen {
   display: flex;
@@ -32,11 +42,11 @@ body {
 }
 .mono {
   margin-top: -95px;
-  margin-left: 20px;
+  margin-left: 12px;
 }
 .ff1 {
   margin-top: -358px;
-  margin-left: 22px;
+  margin-left: 30px;
 }
 .ff2 {
   margin-top: 32px;
@@ -69,7 +79,7 @@ body {
   width: 670px;
   height: 117px;
   margin-top: 26px;
-  margin-left: 1px;
+  margin-left: -14px;
   padding-top: 46px;
 }
 .orange p {
@@ -109,7 +119,7 @@ body {
   width: 459px;
   height: 612px;
   margin-top: 3px;
-  margin-left: 1px;
+  margin-left: 15px;
 }
 .bigword {
   background-image: url("../images/lines.svg");
@@ -809,7 +819,7 @@ body {
 }
 /* ДЕСЯТЫЙ ЭКРАН */
 .girl-arm {
-  margin-top: 460px;
+  margin-top: 458px;
   margin-left: 74px;
 }
 .menaytsa {
@@ -1113,6 +1123,10 @@ body {
   margin-top: 563px;
   margin-left: 382px;
 }
+/* ТРИНАДЦАТЫЙ ЭКРАН */
+.thirteenthscreen {
+  margin-top: -38px;
+}
 .boy-lupa {
   margin-top: 1415px;
   margin-left: 38px;
@@ -1164,27 +1178,31 @@ body {
   color: #eb662b;
   font-size: 24px;
 }
+/* ЧЕТЫРНАДЦАТЫЙ ЭКРАН */
+.fourthsceen {
+  margin-top: -324px;
+}
 .branches-girl {
   position: absolute;
-  margin-top: -392px;
+  margin-top: -432px;
   z-index: 1;
 }
 .branches-boy {
   position: absolute;
-  margin-top: -135px;
-  margin-left: 838px;
+  margin-top: -418px;
+  margin-left: 760px;
   z-index: 1;
 }
 .girl-flowers-end {
   position: absolute;
   z-index: 2;
-  margin-top: 254px;
+  margin-top: -140px;
   margin-left: 92px;
 }
 .boy-flowers {
   position: absolute;
   z-index: 2;
-  margin-top: 309px;
+  margin-top: -82px;
   margin-left: 1087px;
 }
 .we-are-done {
@@ -1193,7 +1211,7 @@ body {
   height: 92px;
   color: #eb662b;
   font-size: 24px;
-  margin-top: 393px;
+  margin-top: 786px;
   margin-left: 352px;
   padding-top: 32px;
   padding-left: 57px;
@@ -1210,27 +1228,30 @@ body {
   padding-left: 29px;
 }
 /* ПЯТНАДЦАТЫЙ ЭКРАН */
+.fifthscreen {
+  margin-top: px;
+}
 .stiker1 {
-  margin-top: 360px;
+  margin-top: 330px;
   margin-left: 38px;
 }
 .stiker2 {
-  margin-left: 59px;
+  margin-left: 54px;
 }
 .stiker3 {
-  margin-left: 59px;
+  margin-left: 55px;
 }
 .stiker4 {
-  margin-left: 59px;
+  margin-left: 57px;
 }
 .stiker5 {
-  margin-left: 59px;
+  margin-left: 52px;
 }
 .numbers-end {
   display: flex;
   color: #eb662b;
   font-size: 248px;
-  margin-top: 78px;
+  margin-top: 75px;
   margin-left: 66px;
 }
 .box-beige-0 {
@@ -1418,14 +1439,14 @@ body {
   font-size: 24px;
 }
 .Daria {
-  margin-top: -100px;
-  margin-left: 29px;
+  margin-top: -99px;
+  margin-left: 86px;
 }
 .uvki {
-  margin-top: -21px;
-  margin-left: 643px;
+  margin-top: -24px;
+  margin-left: 630px;
 }
 .Kamila {
-  margin-top: -40px;
-  margin-left: 1125px;
+  margin-top: -36px;
+  margin-left: 1192px;
 }
