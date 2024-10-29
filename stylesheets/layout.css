@@ -14,21 +14,11 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  background-image: url("../images/THE\ DESIGN.svg");
-  width: 1440px;
-  height: 11376px;
-  opacity: 0.3;
-} */
-body::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
   background-image: url("../images/fantasque\ sans\ mono.svg");
   width: 1440px;
   height: 11376px;
   opacity: 0.3;
-}
+} */
 /* ПЕРВЫЙ ЭКРАН */
 .firstscreen {
   display: flex;
