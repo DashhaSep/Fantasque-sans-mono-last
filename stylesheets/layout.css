@@ -9,7 +9,7 @@ body {
   position: relative;
   background-color: #ecc7cf;
 }
-body::after {
+/* body::after {
   content: "";
   position: absolute;
   top: 0;
@@ -18,17 +18,32 @@ body::after {
   width: 1440px;
   height: 11376px;
   opacity: 0.3;
-}
+} */
 /* ПЕРВЫЙ ЭКРАН */
+p {
+  font-family: "Fantasque sans mono";
+}
+h1 {
+  font-family: "Fantasque sans mono";
+}
+div {
+  font-family: "Fantasque sans mono";
+}
 .firstscreen {
   display: flex;
   position: relative;
   flex-wrap: wrap;
+  color: rgb(235, 103, 38);
+  font-size: 269px;
 }
 .firstscreen h1 {
   margin-top: 94px;
   margin-left: 70px;
   line-height: 190px;
+}
+.image-text-container {
+  position: relative;
+  display: inline-block;
 }
 .mono {
   margin-top: -95px;
@@ -71,6 +86,8 @@ body::after {
   margin-top: 26px;
   margin-left: -14px;
   padding-top: 46px;
+  color: rgb(235, 103, 38);
+  font-size: 24px;
 }
 .orange p {
   text-align: center;
@@ -83,6 +100,8 @@ body::after {
   margin-top: 60px;
   padding-top: 49px;
   margin-left: 1px;
+  color: rgb(239, 236, 219);
+  font-size: 24px;
 }
 .white p {
   text-align: center;
@@ -95,6 +114,8 @@ body::after {
   margin-top: 36px;
   padding-top: 53px;
   margin-left: 1px;
+  color: rgb(239, 236, 219);
+  font-size: 24px;
 }
 .white2 p {
   text-align: center;
