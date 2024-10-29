@@ -9,7 +9,7 @@ body {
   position: relative;
   background-color: #ecc7cf;
 }
-/* body::after {
+body::after {
   content: "";
   position: absolute;
   top: 0;
@@ -18,7 +18,7 @@ body {
   width: 1440px;
   height: 11376px;
   opacity: 0.3;
-} */
+}
 /* ПЕРВЫЙ ЭКРАН */
 .firstscreen {
   display: flex;
@@ -1095,7 +1095,7 @@ body {
 }
 .belorus {
   margin-top: 550px;
-  margin-left: 86px;
+  margin-left: 85px;
 }
 .magyar {
   margin-top: 578px;
